@@ -25,13 +25,13 @@ public class OrderService {
 	private OrderRepository repository;
 	
 	@Autowired
-	private UserService userService;
-	
-	@Autowired
 	private ProductRepository productRepository;
 	
 	@Autowired
 	private OrderItemRepository orderItemRepository;
+	
+	@Autowired
+	private UserService userService;
 	
 	@Autowired
 	private AuthService authService;
